@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Page</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Hello, let's play an interesting quiz!</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="options">
+                <label><input type="radio" name="option" value="A">Option A</label>
+                <label><input type="radio" name="option" value="B">Option B</label>
+                <label><input type="radio" name="option" value="C">Option C</label>
+                <label><input type="radio" name="option" value="D">Option D</label>
+            </div>
+        </div>
+        <div id="timer">Time Remaining: <span id="time-remaining"></span> seconds</div>
+        <button id="submit-button">Submit</button>
+
+        <!-- <button id="restart-button">Restart Quiz</button> -->
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
